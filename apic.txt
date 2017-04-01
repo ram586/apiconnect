@@ -3,6 +3,6 @@
     apic create --type api --title routes
     apic validate routes.yaml
     apic login server
-    apic publish
+    apic publish test.yaml -o test -s test.com
 
 
