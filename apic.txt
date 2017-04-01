@@ -1,0 +1,8 @@
+
+    apic config:set catalog
+    apic create --type api --title routes
+    apic validate routes.yaml
+    apic login server
+    apic publish
+
+
